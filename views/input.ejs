@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 1 Flowace</title>
+  <%- include('./partials/head.ejs') %>
+
+</head>
+<body>
+  <%- include('./partials/header.ejs') %>
+  <main>
+    <img src="../seating-arrangement.png" height=10 rem width=10 rem>
+    <form action="/" method="POST">
+      <fieldset>
+        <div class="form-group">
+          <label for="patientName">Provide the number of rows</label>
+          <input type="text" class="form-control" id="patientName" placeholder="Eg: 5 - meaning 5 rows" name="n" required>
+          <small id="emailHelp" class="form-text text-muted">Enter only interger values</small>
+        </div>
+        <div class="form-group">
+          <label for="patientAge">Enter the blocked seats</label>
+          <input type="text" class="form-control" id="patientAge" placeholder="Eg: 'A1 B1'" name="blocked" required>
+          <small class="form-text text-muted">Provide seats that are blocked separated by spaces. Refer the seating image above</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Calculate</button>
+      </fieldset>
+    </form>
+
+
+  </main>
+  <footer>
+    <%- include('./partials/footer.ejs') %>
+  </footer>
+</body>
+</html>
