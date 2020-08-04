@@ -1,5 +1,4 @@
-# Flowace-task-1
-Task 1 - Seating Arrangement
+# Flowace-task-1 - Seating Arrangement
 The complete seating arrangement is divided into 3 sections i.e S1, S2 and S3.
 We have to design a seating arrangement for families. Each family comprises of exactly "4" members
 in it.You need to create a function which accepts 2 parameters: 1) No. of rows ("r" -> Integer) 2) Blocked
